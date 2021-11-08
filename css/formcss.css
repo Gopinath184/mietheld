@@ -1,0 +1,346 @@
+/*! CSS Used from: https://www.mietesenken.at/css/bootstrap.css */
+@media print{
+*,*::before,*::after{text-shadow:none!important;box-shadow:none!important;}
+img{page-break-inside:avoid;}
+}
+*,*::before,*::after{box-sizing:border-box;}
+img{vertical-align:middle;border-style:none;}
+input:not([type="range"]),label{-ms-touch-action:manipulation;touch-action:manipulation;}
+label{display:inline-block;margin-bottom:.5rem;}
+input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+input{overflow:visible;}
+html [type="button"]{-webkit-appearance:button;}
+[type="button"]::-moz-focus-inner{padding:0;border-style:none;}
+input[type="checkbox"]{box-sizing:border-box;padding:0;}
+.img-thumbnail{padding:0.25rem;background-color:#fff;border:1px solid #ddd;border-radius:0.25rem;transition:all 0.2s ease-in-out;max-width:100%;height:auto;}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.form-control{display:block;width:100%;padding:0.375rem 0.75rem;font-size:1rem;line-height:1.5;color:#495057;background-color:#fff;background-image:none;background-clip:padding-box;border:1px solid #ced4da;border-radius:0.25rem;transition:border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;}
+.form-control::-ms-expand{background-color:transparent;border:0;}
+.form-control:focus{color:#495057;background-color:#fff;border-color:#80bdff;outline:none;box-shadow:0 0 0 0.2rem rgba(0, 123, 255, 0.25);}
+.form-control::-webkit-input-placeholder{color:#868e96;opacity:1;}
+.form-control:-ms-input-placeholder{color:#868e96;opacity:1;}
+.form-control::-ms-input-placeholder{color:#868e96;opacity:1;}
+.form-control::placeholder{color:#868e96;opacity:1;}
+.form-control:disabled{background-color:#e9ecef;opacity:1;}
+.form-group{margin-bottom:1rem;}
+.btn{display:inline-block;font-weight:400;text-align:center;white-space:nowrap;vertical-align:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;padding:0.375rem 0.75rem;font-size:1rem;line-height:1.5;border-radius:0.25rem;transition:background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+.btn:focus,.btn:hover{text-decoration:none;}
+.btn:focus{outline:0;box-shadow:0 0 0 0.2rem rgba(0, 123, 255, 0.25);}
+.btn:disabled{opacity:.65;}
+.btn:not([disabled]):not(.disabled):active{background-image:none;}
+.input-group{position:relative;display:-ms-flexbox;display:flex;-ms-flex-align:stretch;align-items:stretch;width:100%;}
+.input-group .form-control{position:relative;z-index:2;-ms-flex:1 1 auto;flex:1 1 auto;width:1%;margin-bottom:0;}
+.input-group .form-control:focus,.input-group .form-control:active,.input-group .form-control:hover{z-index:3;}
+.input-group .form-control{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;}
+.progress{display:-ms-flexbox;display:flex;height:2.4rem;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;border-radius:0.25rem;}
+.progress-bar{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;color:#fff;background-color:#007bff;}
+.progress-bar-striped{background-image:linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-size:1rem 1rem;}
+.text-center{text-align:center!important;}
+.text-danger{color:#dc3545!important;}
+/*! CSS Used from: https://www.mietesenken.at/css/style.css */
+input[type='number']{-moz-appearance:textfield;}
+.advanced_search{border-radius:10px;overflow:hidden;float:right;margin-top:-472px;padding:45px 30px;text-align:center;-webkit-box-shadow:none;box-shadow:none;position:relative;}
+/*.advanced_search .submit_btn{margin-top:33px;border:none;padding:0px;font-size:18px;padding:0px 10px 0px 10px;}
+*/.submit_btn{width:auto;display:inline-block;background:linear-gradient(to bottom right, #26A386 0%, #1EC656 100%)!important;padding:0px 25px;color:#fff;font-family:wfont_ef305b_736a916d09a94cd392744ed6af33990f,wf_736a916d09a94cd392744ed6a,orig_ubuntu!important;font-size:13px;font-weight:900!important;line-height:50px;border-radius:12px!important;outline:none!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-align:center;border:1px solid #A2ECFC;cursor:pointer;-webkit-transition:all 300ms linear 0s;-o-transition:all 300ms linear 0s;transition:all 300ms linear 0s;}
+.submit_btn:hover{background:transparent;color:#A2ECFC;}
+.input-group>input{cursor:pointer;}
+.iti.iti--allow-dropdown>input{cursor:pointer;}
+div,span{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:0 0;}
+:focus{outline:0;}
+#regForm{font-family:Raleway;}
+input{padding:10px;font-size:17px;font-family:Raleway;border:1px solid #aaaaaa;margin-bottom:32px;}
+.tab{display:none;}
+.step{height:22px;width:38px;margin:0 -2px;background-color:#bbbbbb;border:none;display:inline-block;opacity:0.5;}
+.step.finish{background-color:#4CAF50;}
+.formrounded{border-radius:1rem;background-color:#e2dcdb;height:51px;}
+span.step.first_step{border-top-left-radius:10px;border-bottom-left-radius:10px;}
+span.step.last_step{border-top-right-radius:10px;border-bottom-right-radius:10px;}
+input.image_inside_checkbox{position:absolute;margin:4px 16px 0px -28px;cursor:pointer;}
+.progress-bar.active{-webkit-animation:progress-bar-stripes 2s linear infinite;-o-animation:progress-bar-stripes 2s linear infinite;animation:progress-bar-stripes 2s linear infinite;}
+.progress-bar{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;color:#fff;background-color:#22b56e;}
+.progress{display:-ms-flexbox;display:flex;height:1.5rem;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;width:52%;border-radius:0.85rem;margin:auto;}
+label>img{width:157px;}
+label>input{width:24px;height:24px;}
+input.btn.submit_btn.front_submit_btn{margin-top:7px;width:100%;}
+input#phone{background:white;margin:auto;width:100%!important;}
+.input_div_check{display:inline-block;float:left;margin:auto;}
+.full_div_check{margin:auto!important;}
+label.label_check{padding:8px;width:105px;cursor:pointer;}
+.form-control{font-family:wfont_ef305b_736a916d09a94cd392744ed6af33990f,wf_736a916d09a94cd392744ed6a,orig_ubuntu!important;}
+.tick_image{width:414px!important;}
+.final_tick_image{display:none;}
+.iti{width:100%!important;}
+@media only screen and (max-width: 414px){
+input.btn.submit_btn.front_submit_btn{margin-top:7px;width:100%;font-size:12px;}
+}
+@media only screen and (max-width: 360px){
+input.btn.submit_btn.front_submit_btn{margin-top:7px;width:100%;font-size:12px;}
+}
+input.image_inside_checkbox{display:none;}
+label.label_check:active{padding:8px;width:110px;}
+label.label_check:focus{padding:8px;width:110px;}
+label.label_check:visited{padding:8px;width:110px;}
+label.label_check:hover{padding:8px;width:110px;}
+/*! CSS Used from: https://www.mietesenken.at/css/responsive.css */
+@media (max-width:991px){
+label.label_check{padding:8px;width:105px;}
+.advanced_search{float:none;margin-top:-372px!important;margin-bottom:35px!important;margin:auto;}
+/*.advanced_search .submit_btn{margin-top:33px;border:none;padding:0px 10px 0px 10px;font-size:14px;}*/
+.tick_image{width:100%!important;}
+}
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.4/css/intlTelInput.css */
+.iti{position:relative;display:inline-block;}
+.iti *{box-sizing:border-box;-moz-box-sizing:border-box;}
+.iti input,.iti input[type=tel]{position:relative;z-index:0;margin-top:0!important;margin-bottom:0!important;padding-right:36px;margin-right:0;}
+.iti__flag-container{position:absolute;top:0;bottom:0;right:0;padding:1px;}
+.iti__selected-flag{z-index:1;position:relative;display:flex;align-items:center;height:100%;padding:0 6px 0 8px;}
+.iti__arrow{margin-left:6px;width:0;height:0;border-left:3px solid transparent;border-right:3px solid transparent;border-top:4px solid #555;}
+.iti--allow-dropdown input,.iti--allow-dropdown input[type=tel]{padding-right:6px;padding-left:52px;margin-left:0;}
+.iti--allow-dropdown .iti__flag-container{right:auto;left:0;}
+.iti--allow-dropdown .iti__flag-container:hover{cursor:pointer;}
+.iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag{background-color:rgba(0, 0, 0, 0.05);}
+.iti__flag{width:20px;}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+.iti__flag{background-size:5652px 15px;}
+}
+.iti__flag.iti__at{height:14px;background-position:-264px 0px;}
+.iti__flag{height:15px;box-shadow:0px 0px 1px 0px #888;background-image:url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.4/img/flags.png");background-repeat:no-repeat;background-color:#DBDBDB;background-position:20px 0;}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+.iti__flag{background-image:url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.4/img/flags@2x.png");}
+}
+/*! CSS Used keyframes */
+@-webkit-keyframes progress-bar-stripes{from{background-position:1rem 0;}to{background-position:0 0;}}
+@keyframes progress-bar-stripes{from{background-position:1rem 0;}to{background-position:0 0;}}
+/*! CSS Used fontfaces */
+@font-face{font-family:wf_736a916d09a94cd392744ed6a;src:url(https://www.mietesenken.at/fonts/mietheldfonts/ef305b_736a916d09a94cd392744ed6af33990f.woff) format("woff"), url(https://www.mietesenken.at/fonts/mietheldfonts/ef305b_736a916d09a94cd392744ed6af33990f.woff2) format("woff2"), url(https://www.mietesenken.at/fonts/mietheldfonts/ef305b_736a916d09a94cd392744ed6af33990f.ttf) format("ttf");}
+@font-face{font-family:wf_736a916d09a94cd392744ed6a;src:url(https://www.mietesenken.at/fonts/mietheldfonts/ef305b_736a916d09a94cd392744ed6af33990f.woff) format("woff"), url(https://www.mietesenken.at/fonts/mietheldfonts/ef305b_736a916d09a94cd392744ed6af33990f.woff2) format("woff2"), url(https://www.mietesenken.at/fonts/mietheldfonts/ef305b_736a916d09a94cd392744ed6af33990f.ttf) format("ttf");}
+@font-face{font-family:orig_ubuntu;src:url(https://www.mietesenken.at/fonts/ubuntu-font-family/Ubuntu-M.ttf) format("ttf");}
+#regForm {
+    font-family: Raleway;
+    margin-top: 427px !important;
+    /* top: 72px !important; */
+}
+
+.progress {
+    margin-top: 86px;
+    width: 58% !important;
+    height: 23px !important;
+}
+input.formrounded {
+    background: rgba(255,255,255,0.69) !important;
+    background-color: rgba(255,255,255,0.69) !important;
+    border: 0px solid rgb(255,255,255) !important;
+    text-align: left !important;
+    border-radius: 15px !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: 15px !important;
+    padding: 10px 10px !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    font-style: normal !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -o-box-shadow: none !important;
+}
+input#phone {
+    background: white;
+    margin: auto;
+    width: 100%!important;
+    padding-left: 45px !important;
+}
+
+.advanced_search .submit_btn {
+    margin-top: 10px !important;
+    border: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 14px;
+    position: absolute;
+    margin: auto;
+    left: 16px;
+}
+
+.advanced_search {
+    height: 800px;
+    padding: 24px !important;
+    margin-top: -377px !important;
+}
+input#Miete {
+    margin-top: 21px;
+}
+
+.advanced_search .submit_btn {
+    margin-top: 10px !important;
+    border: none;
+    padding: 0px !important;
+    font-size: 22px;
+    position: absolute;
+    margin: auto;
+    left: 9px;
+    line-height: 26px;
+    width: 295px;
+    border-radius: 41px !important;
+    padding-top: 9px !important;
+}
+
+#front_form_submit{
+    margin-top: 10px !important;
+    border: none;
+    padding: 0px !important;
+    font-size: 13px;
+    position: absolute;
+    margin: auto;
+    left: 9px;
+    line-height: 26px;
+    width: 299px;
+    border-radius: 41px !important;
+    padding-top: 2px !important;
+    height: 50px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px;
+    background: black;
+}
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #000000;
+    background: black;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #000;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: none !important;
+    filter: alpha(opacity=20);
+    opacity: 1 !important;
+    /* background: red !important; */
+    margin-left: 4px;
+}
+a.g-transparent-a.style-jsuazwiilink {
+    color: black;
+    font-weight: 600;
+}
+
+.wrapper{
+    width:70%;
+  }
+  @media(max-width:992px){
+   .wrapper{
+    width:100%;
+  } 
+  }
+  .panel-heading {
+    padding: 0;
+      border:0;
+  }
+  .panel-title>a, .panel-title>a:active{
+      display: block;
+      padding: 15px;
+      color: #555;
+      font-size: 13px;
+      font-weight: bold;
+      word-spacing: 3px;
+      text-decoration: none;
+      text-transform: none !important;
+      letter-spacing: normal !important;
+      font: normal normal normal 15px/23px wfont_ef305b_bb0ce061b76644cda03b0b852cd1e5bc,wf_bb0ce061b76644cda03b0b852,orig_ubuntu_bold;
+  }
+  
+  .panel-heading  a:before {
+     font-family: 'Glyphicons Halflings';
+     content: "\e114";
+     float: right;
+     transition: all 0.5s;
+  }
+  .panel-heading.active a:before {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      transform: rotate(180deg);
+  } 
+  
+  .panel-default>.panel-heading {
+      color: #333;
+      background-color: #ffffff;
+      border-color: transparent;
+      border: none;
+  }
+  
+  .panel-default {
+      border-color: #ddd;
+      border: none !important;
+  }
+  .panel-heading a:before {
+      font-family: 'Glyphicons Halflings';
+      content: "\e114";
+      float: right;
+      transition: all 0.5s;
+      font-size: 9px;
+      font-weight: normal !important;
+  }
+  
+  
+  .panel-title>a, .panel-title>a:active {
+       display: block;
+      padding: 15px;
+      color: #555;
+      font-size: 13px;
+      font-weight: bold;
+      word-spacing: 3px;
+      text-decoration: none;
+      text-transform: none !important;
+      letter-spacing: normal !important;
+      font: normal normal normal 15px/23px wfont_ef305b_bb0ce061b76644cda03b0b852cd1e5bc,wf_bb0ce061b76644cda03b0b852,orig_ubuntu_bold;
+  }
+  
+  
+  .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+      border-top: none;
+  }
+  
+  .panel {
+      margin-bottom: 20px;
+      background-color: #fff;
+      border: 1px solid transparent;
+      border-radius: 4px;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+  }
+  
+  
+  .wrapper.center-block {
+      margin-top: 59px;
+  }
+  
+  .panel-body {
+      border-bottom: 0px solid #f1e0b6;
+  }
+  .panel.panel-default {
+      border-bottom: 2px solid #f1e0b6 !important;
+  }
+  
+  .panel-body {
+      font-size: 9px;
+      padding: 8px;
+      color: rgba(100,102,102,1) !important;
+      line-height: 1.5em;
+      font: normal normal normal 14px/20px din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+  }
+  
